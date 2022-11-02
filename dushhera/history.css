@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.history {
+    /* background-color: #F2F3F4; */
+    margin-top: 5rem;
+
+}
+
+.article {
+    height: auto !important;
+    margin: 30px;
+}
+
+.post-info {
+    display: flex;
+    left: 0;
+
+}
+
+.article {
+    margin: 50px auto; 
+   
+    height: 370px;
+    background: white;
+    border: 1px solid #333;
+    position: relative;
+    z-index: 90;
+}
+
+.ribbon-wrapper {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+   
+    left: -3px;
+}
+
+.ribbon {
+    font: bold 15px sans-serif;
+    color: #333;
+    text-align: center;
+    
+    transform : rotate(360deg);
+    position: relative;
+    padding: 7px 0;
+    top: 10px;
+    left: -30px;
+    width: 130px;
+    background-color: #ebb134;
+    color: #fff;
+}
+.post-info{
+    font-family: 'poppins', sans-serif;
+    font-weight: 400;
+    margin: 0 0 0 90%;
+}
+.post-info a{
+    text-decoration: none;
+    color: red;
+    font-family: 'poppins', sans-serif;
+    font-weight: 600;
+}
+
+
+
+.title {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    word-wrap: normal;
+}
+
+p {
+    text-align: justify;
+    font-family: 'poppins', sans-serif;
+}
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
+
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.vertical-menu ul a {
+    white-space: nowrap;
+    color: red;
+    text-overflow: clip;
+}
+
+
+/* Footer*/
+.inner-footer {
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+
+}
+
+.social-links {
+    display: flex;
+}
+
+.contect {
+    text-align: justify;
+
+}
+
+.social-links ul {
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+
+.social-items a {
+
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #6cccc6;
+}
+
+.footer-content {
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.fa-facebook:hover {
+    color: blue;
+}
+
+.fa-twitter:hover {
+    color: skyblue;
+}
+
+.fa-instagram:hover {
+    color: #e5345b;
+}
+
+.fa-youtube:hover {
+    color: red;
+}

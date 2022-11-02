@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#gallery {
+   line-height:0;
+   -webkit-column-count:5; /* split it into 5 columns */
+   -webkit-column-gap:5px; /* give it a 5px gap between columns */
+   -moz-column-count:5;
+   -moz-column-gap:5px;
+   column-count:5;
+   column-gap:5px;
+}
+.text-center{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'poppins', sans-serif;
+}
+.text-center a:hover{
+    text-transform: uppercase;
+}
+.text-center a {
+    text-align: center;
+    text-decoration: none;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    color: #54b3d6;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  }
+  .text-center a:hover {
+    box-shadow: inset 0 100px 0 100px #54b3d6;
+    color: white;
+  }
+.inner-footer{
+    margin: 0;
+    padding: 0;
+    background-color: #202020;
+}
+.social-links{
+    display: flex;
+}
+.social-links ul{
+    display: flex;
+    padding: 10px;
+    width: 300px;
+    height: 30px;
+    margin: auto;
+}
+.social-items a{
+    font-size: 30px;
+    padding: 10px 20px;
+    color: #6cccc6;
+}
+.footer-content{
+    margin-top: 2%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+.emoji{
+    
+    display: inline !important;
+    border: none !important;
+    /* box-shadow: none !important; */
+    /* height: 1em !important; */
+    width: 1em !important;
+    margin: 10px 0.07em !important;
+    vertical-align: -0.1em !important;
+    background: none !important;
+    padding: 0 !important;
+}
+.fa-facebook:hover{
+       color: blue;
+}
+.fa-twitter:hover{
+       color: skyblue;
+}
+.fa-instagram:hover{
+       color: #e5345b;
+}
+.fa-youtube:hover{
+       color: red;
+}

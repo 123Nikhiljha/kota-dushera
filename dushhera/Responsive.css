@@ -1,0 +1,102 @@
+@media (max-width: 767px) {
+    .text {
+        width: 100%;
+        font-size: 18px;
+        overflow: hidden;
+    }
+
+    .para {
+        margin-left: -2rem;
+    }
+
+    .dusheera-section {
+        margin-top: -2rem;
+    }
+
+    .top-heading {
+        margin-bottom: -1rem;
+        overflow: hidden;
+    }
+
+    #carouselExampleIndicators {
+        margin-top: 2rem;
+        width: fit-content;
+
+    }
+    
+    #product-card-2{
+       
+        padding-top: 3rem;
+    }
+    #card-3{
+        padding-top: 2.1995rem;
+    }
+    
+    #product-card-4{
+        padding-top: -10px;
+    }
+    
+
+    .heading {
+        font-size: 18px;
+    }
+
+    .footer-content {
+        margin-top: 1.5rem;
+    }
+
+    .navbar-collapse {
+        margin-left: 3rem;
+    }
+
+    .article {
+        border: none;
+        margin: auto !important;
+
+    }
+    .single-title{
+        text-align: justify;
+    }
+    .history-heading{
+        
+        padding-top: 2rem;
+    }
+     .para-content {
+        width: 100%;
+        text-align: justify;
+        margin: auto !important;
+    }
+
+    .paragraph {
+        margin: auto !important;
+        font-size: 18px;
+    }
+    p{
+        padding-top: 0.5rem;
+    }
+    h2{
+        text-align: justify;
+    }
+    
+    .post-info{
+        margin: 0 0 0 65%;
+    }
+    .album{
+        margin-bottom: -2rem;
+    }
+    .vertical-menu a{
+        text-align: justify;
+    }
+}
+@media(max-width: 575px){
+    #product-card-2{
+        margin-top: -4.3rem;
+    }
+    
+    #product-card-4{
+        margin-top: 2.5rem;
+    }
+    
+
+   
+}
